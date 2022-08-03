@@ -16,9 +16,9 @@ header{
     justify-content: center;
     width: 100%;
     min-width: 320px;
-    height: 334px;
+    height: 320px;
     text-align: center;
-    background: #8F51F5;
+    background: #F5F0BB;
 }
 .header-title{
     width: 90%;
@@ -46,7 +46,7 @@ header{
 main{
     width: 100%;
     height: auto;
-    background-color: #4662FA;
+    background-color: #C4DFAA;
 }
 .main-proyectos h2{
     display: flex;
@@ -71,7 +71,7 @@ main{
     scroll-snap-align: center;
     margin: 3rem auto;
     border-radius: 15px;
-    background-color: #4e56eb;
+    background-color: #73A9AD;
 }
 .proyect-card a{
     text-decoration: none;
@@ -89,6 +89,7 @@ main{
     font-size: 2.5rem;
     text-align: center;
     margin: 8px auto;  
+    color: black;
 }
 .proyect-card--description{
     width: 100%;
@@ -96,6 +97,7 @@ main{
     font-size: 1.8rem;
     text-align: center;
     margin: 2px auto;
+    color: black;
 }
 /*imagenes*/
 .movies_project{
@@ -112,4 +114,23 @@ main{
 }
 .clon_google{
     background-image: url(./img/google.png);
+}
+
+/*footer*/
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: #90C8AC;
+}
+.footer-container{
+    width: 100%;
+    max-width: 50rem;
+    display: flex;
+    margin: 0 auto;
+}
+.footer-container a{
+    font-size: 1.8rem;
+    margin: 1.5rem auto;
+    color: black;
 }
