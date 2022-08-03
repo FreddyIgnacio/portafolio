@@ -73,15 +73,22 @@ main{
     border-radius: 15px;
     background-color: #4e56eb;
 }
+.proyect-card a{
+    text-decoration: none;
+}
 .proyect-card--img{
-
+    width: 100%;
+    height: 21vh;
+    background-size: cover;
+    background-position: top;
+    object-fit: cover;
+    border-radius: 15px;
 }
 .proyect-card--title{
     width: 25rem;
     font-size: 2.5rem;
     text-align: center;
-    margin: 2px auto;
-    
+    margin: 8px auto;  
 }
 .proyect-card--description{
     width: 100%;
@@ -89,4 +96,20 @@ main{
     font-size: 1.8rem;
     text-align: center;
     margin: 2px auto;
+}
+/*imagenes*/
+.movies_project{
+    background-image: url(./img/movies.png);
+}
+.batata_project{
+    background-image: url(./img/BatataBit.png);
+}
+.figuras_project{
+    background-image: url(./img/figuras.png);
+}
+.menu_grid{
+    background-image: url(./img/food.png);
+}
+.clon_google{
+    background-image: url(./img/google.png);
 }
