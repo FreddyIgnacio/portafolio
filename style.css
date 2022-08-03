@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+/*header*/
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    text-align: center;
+    background: #8F51F5;
+}
+.header-title{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 218px;
+    margin-top: 40px;
+    text-align: center;
+    align-self: center;
+}
+.header-title h1{
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+}
+.header-title p{
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+
+/*MAIN*/
+
+main{
+    width: 100%;
+    height: auto;
+    background-color: #4662FA;
+}
+.main-proyectos h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2.4rem;
+    padding-top: 50px;
+    margin: 0 auto;
+    width: 96%;
+}
+.proyect-card-container{
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x proximity;
+    overscroll-behavior-x: contain;
+    gap: 2rem;
+}
+.proyect-card{
+    position: relative;
+    width: 25rem;
+    height: 30rem;
+    scroll-snap-align: center;
+    margin: 3rem auto;
+    border-radius: 15px;
+    background-color: #4e56eb;
+}
+.proyect-card--img{
+
+}
+.proyect-card--title{
+    width: 25rem;
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2px auto;
+    
+}
+.proyect-card--description{
+    width: 100%;
+    position: relative;
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 2px auto;
+}
